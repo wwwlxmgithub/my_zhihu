@@ -23,8 +23,9 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
-        primaryColor: Colors.white,
+         primarySwatch: Colors.blue,
+         primaryColor: Colors.white,
+         accentColor: Colors.redAccent
 
       ),
       home: MyHomePage(),
@@ -49,7 +50,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _selectedIndex = 1;
+  int _selectedIndex = 0;
 
   final _widgetOptions = [HomePage(), IdeaWidget(), MemberWidget(), NoticeWidget(), MyWidget()];
   void _onItemTapped(int index) {
